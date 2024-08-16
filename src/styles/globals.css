@@ -1,0 +1,31 @@
+/* globals.css */
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.dropdown-container {
+  margin-bottom: 20px;
+}
+
+.react-select__placeholder {
+  color: #888;
+}
+
+.react-select__single-value {
+  color: #333;
+}
+
+.react-select__menu {
+  border-radius: 4px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.react-select__option--is-focused {
+  background-color: #f0f0f0;
+}
+
+.react-select__option--is-selected {
+  background-color: #dcdcdc;
+}
